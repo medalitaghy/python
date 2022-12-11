@@ -67,11 +67,20 @@ def rectangle_de_chiffer():                                                     
         print()
 
 
+def tableMulti():
+    for i in range(1,21):
+        result  = 7*i
+        if result%3 == 0:
+            print(result," *")
+        else:
+            print(result)
 
-for i in range(1,21):
-    result  = 7*i
-    if result%3 == 0:
-        print(result," *")
-    else:
-        print(result)
+def triangleIso():
+    n = int(input("enter n :"))
+    b = n
+    for i in range(1,n):
+        print(" "*b,end="")
+        print("*"*(2*i -1))
+        b = b-1
+
 
